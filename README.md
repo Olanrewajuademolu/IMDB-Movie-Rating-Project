@@ -19,6 +19,14 @@ To uncover insights into trends, patterns, and factors that influence movie succ
 - Microsoft Excel (Data cleaning and preprocessing)
 - SQL Server (MSSQL) (Data querying & analysis)
 
+### 🧹 Data Cleaning Summary
+
+- Checked dataset for missing values & duplicates.
+- Renamed columns (Release → ReleaseYear, Runtime → RuntimeMinutes, Ratings → Rating).
+- Converted types: Runtime to minutes (INT), Ratings to DECIMAL(3,1).
+- Standardized Rated column (PG, PG-13, R).
+- Saved final version as IMDB_data_clean.csv for SQL import.
+
 ## ❓ Business Questions Explored
 
 - What are the Top 10 highest-rated movies?
@@ -27,6 +35,8 @@ To uncover insights into trends, patterns, and factors that influence movie succ
 - How do ratings differ by movie classification (Rated)?
 - Do longer movies tend to have better ratings?
 - How do the Top 50 movies compare to the Bottom 50?
+
+
 
 ## 📊 SQL Queries & Sample Insights
 ### Q1: Top 10 Highest-Rated Movies
@@ -76,13 +86,4 @@ To uncover insights into trends, patterns, and factors that influence movie succ
 *Insight:*
 - The Top 50 average rating is 8.7+, while the Bottom 50 are around 8.0.
 - Runtime differences are small, showing storytelling quality matters more than length.
-
-
-## Data Cleaning & Preparation
-
-Steps taken:
-- Parsed date fields (Date received, Date resolved) to datetime format
-- Cleaned missing values, especially in fields like Resolution time
-- Normalized categorical entries (e.g., 'Yes'/'No')
-
 
