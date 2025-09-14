@@ -87,3 +87,8 @@ To uncover insights into trends, patterns, and factors that influence movie succ
 - The Top 50 average rating is 8.7+, while the Bottom 50 are around 8.0.
 - Runtime differences are small, showing storytelling quality matters more than length.
 
+## 🏆 Conclusion
+
+- Classic films dominate IMDB’s highest ratings, but modern hits also compete strongly.
+- R-rated films are the most common in the Top 250.
+- Longer runtimes (151–200 mins) slightly correlate with better ratings.
